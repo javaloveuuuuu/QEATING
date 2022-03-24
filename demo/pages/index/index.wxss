@@ -1,0 +1,63 @@
+/**index.wxss**/
+/* 轮播图 */ 
+/* .swiper{ 
+  width: 710rpx;
+  height: 400rpx;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 14rpx;
+  margin:15rpx auto 30rpx;
+  transform: translateY(0);
+}
+.swiper-img{
+  width: 100%;
+  height: 100%;
+}
+.swiperCont{
+  width: 100%;
+  box-sizing: border-box;
+}
+.swiper-item image{
+  width:710rpx;
+  height:330rpx;
+}
+.swiper .wx-swiper-dot{
+  width: 30rpx;
+  height: 8rpx;
+  border-radius:5rpx;
+}
+*/
+.swiper {
+  padding-top: 30px;
+  width: 800rpx;
+  height: 400rpx;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 14rpx;
+  margin:15rpx auto 30rpx;
+  transform: translateY(0);
+ }
+ .le-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transform: scale(0.8);
+  transition: all 0.3s ease;
+  border-radius: 6px;
+ }
+ .le-img.le-active {
+  transform: scale(1);
+ }
+ .swiperCont{
+  width: 100%;
+  box-sizing: border-box;
+}
+.swiper-item image{
+  width:710rpx;
+  height:330rpx;
+}
+.swiper .wx-swiper-dot{
+  width: 30rpx;
+  height: 8rpx;
+  border-radius:5rpx;
+}

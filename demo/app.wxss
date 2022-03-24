@@ -1,0 +1,57 @@
+/**app.wxss**/
+@import 'miniprogram_npm/@vant/weapp/common/index.wxss';
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+page {
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica,
+    Segoe UI, Arial, Roboto, 'PingFang SC', 'miui', 'Hiragino Sans GB', 'Microsoft Yahei',
+    sans-serif;
+}
+
+@font-face {
+  font-family: "iconfont"; /* Project id 3274346 */
+  src: url('/font/iconfont.woff2?t=1648107884198') format('woff2'),
+       url('/font/iconfont.woff?t=1648107884198') format('woff'),
+       url('/font/iconfont.ttf?t=1648107884198') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mianshi:before {
+  content: "\f33d";
+}
+
+.icon-yinliao:before {
+  content: "\f345";
+}
+
+.icon-zaocan:before {
+  content: "\f346";
+}
+
+.icon-zhushi:before {
+  content: "\f348";
+}
+
+.icon-jidan:before {
+  content: "\f349";
+}
+
+.icon-gaodian:before {
+  content: "\f34f";
+}
+

@@ -1,7 +1,0 @@
-/* pages/random/random.wxss */
-.title{
-  text-align: center;
-  font-family: BlinkMacSystemFont;
-  font-size: 20px;
-}
-

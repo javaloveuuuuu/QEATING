@@ -1,0 +1,47 @@
+{
+  "component": true,
+  "pages": [
+    "pages/index/index",
+    "pages/AI/AI",
+    "pages/random/random",
+    "pages/my/my",
+    "pages/diary/diary",
+    "pages/calendar/calendar",
+    "pages/help/help",
+    "pages/body/body"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ADD8E6",
+    "navigationBarTitleText": "家人，今天吃什么？",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/AI/AI",
+        "text": "拍照识别"
+      },
+      {
+        "pagePath": "pages/random/random",
+        "text": "吃啥哟"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我"
+      }
+    ]
+  },
+  "usingComponents": {
+    "van-tabbar": "@vant/weapp/tabbar/index",
+    "van-tabbar-item": "@vant/weapp/tabbar-item/index",
+    "zhuanpan":"/zhuanpan/zhuanpan" ,
+    "iconfont": "/iconfont/iconfont"
+  }
+}

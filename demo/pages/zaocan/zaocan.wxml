@@ -1,0 +1,77 @@
+<!--pages/zaocan.wxml-->
+<van-divider contentPosition="center">推荐</van-divider>
+<van-card
+  desc="早餐"
+  title="油条"
+  thumb="https://i8.meishichina.com/attachment/recipe/2022/03/06/2022030616465434358809619299934.JPG?x-oss-process=style/p800"
+  thumb-mode='scaleToFill'
+  >
+<view slot="footer">
+    <van-button id="youtiao" size="mini" bindtap="gotoPage">详情</van-button>
+  </view>
+</van-card>
+
+<van-card
+  desc="减肥餐 早餐"
+  title="牛肉火腿三明治"
+  thumb="https://i3.meishichina.com/attachment/recipe/2022/04/05/2022040516491186818051.jpg?x-oss-process=style/c320"
+  thumb-mode='scaleToFill'
+  >
+<view slot="footer">
+    <van-button id="sandwich" size="mini" bindtap="gotoPage">详情</van-button>
+  </view>
+</van-card>
+
+<van-card
+  desc="早餐"
+  title="羊肉米线"
+  thumb="https://i8.meishichina.com/attachment/recipe/2022/03/16/20220316164740867896838910274398.jpg?x-oss-process=style/p800"
+  thumb-mode='scaleToFill'
+  >
+<view slot="footer">
+    <van-button id="mixian" size="mini" bindtap="gotoPage">详情</van-button>
+  </view>
+</van-card>
+
+<van-card
+  desc="湖北特色早餐"
+  title="热干面"
+  thumb="https://tse1-mm.cn.bing.net/th/id/R-C.fe5a705f0a6c9b7e9fa6447d8b695045?rik=vj1F9ZP75QBnQA&riu=http%3a%2f%2fimgx.xiawu.com%2fxzimg%2fi4%2fi2%2f18942029457458116%2fT1SLT0FlxcXXXXXXXX_!!0-item_pic.jpg&ehk=5lx%2fyESd03jwh3sQZ26GWVZYHBKiQISON%2bHXE%2fopkuE%3d&risl=&pid=ImgRaw&r=0"
+>
+<view slot="footer">
+    <van-button id="reganmian" size="mini" bindtap="gotoPage">详情</van-button>
+  </view>
+</van-card>
+
+<van-card
+  desc="早茶点心"
+  title="虾饺"
+  thumb="https://p5.ssl.qhimgs1.com/sdr/400__/t013eeda99d97d1ecc5.jpg"
+  thumb-mode='scaleToFill'
+  >
+<view slot="footer">
+    <van-button id="xiajiao" size="mini" bindtap="gotoPage">详情</van-button>
+  </view>
+</van-card>
+
+<van-card
+  desc="早餐"
+  title="鸡蛋汉堡"
+  thumb="https://i8.meishichina.com/attachment/recipe/2022/03/23/20220323164799919618377710676629.jpg?x-oss-process=style/p800"
+  thumb-mode='scaleToFill'
+  >
+<view slot="footer">
+    <van-button id="hanbao" size="mini" bindtap="gotoPage">详情</van-button>
+  </view>
+</van-card>
+
+<van-card
+  desc="早餐"
+  title="桂花酒酿小汤圆"
+  thumb="https://tse1-mm.cn.bing.net/th/id/R-C.620f602c7ae6cb1629309eb419333c38?rik=ycit%2bP3HWsGu3g&riu=http%3a%2f%2fcp1.douguo.net%2fupload%2fcaiku%2f7%2f3%2fb%2fyuan_7397b65ada8549296d02dfef0237ac8b.jpg&ehk=RhjI3G9avYuQL%2fr41OLbhgU2t%2fpwbkYhzKCmBdbb9ME%3d&risl=&pid=ImgRaw&r=0"
+  thumb-mode='scaleToFill'
+  >
+<view slot="footer">
+    <van-button id="guihua" size="mini" bindtap="gotoPage">详情</van-button>
+  </view>
+</van-card>

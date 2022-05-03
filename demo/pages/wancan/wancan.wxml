@@ -1,0 +1,27 @@
+<!--pages/zaocan.wxml-->
+<van-divider contentPosition="center">推荐</van-divider>
+<van-card
+  desc="开胃菜"
+  tag="辣"
+  title="酸辣土豆丝"
+  thumb="https://p0.ssl.qhimgs1.com/sdr/400__/t0144ea8812f592f2de.jpg"
+  thumb-mode='scaleToFill'
+ >
+<view slot="footer">
+    <van-button id="tudousi" size="mini" bindtap="gotoPage">详情</van-button>
+  </view>
+</van-card>
+
+<van-card
+  desc="湖南特色菜"
+  tag="辣"
+  title="辣椒炒肉"
+  thumb="https://i8.meishichina.com/attachment/recipe/2020/10/22/20201022160331996297238810121381.JPG?x-oss-process=style/p800"
+  thumb-mode='scaleToFill'
+>
+<view slot="footer">
+    <van-button id="chaorou" size="mini" bindtap="gotoPage">详情</van-button>
+  </view>
+</van-card>
+
+

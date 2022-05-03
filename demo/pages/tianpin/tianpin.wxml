@@ -1,0 +1,12 @@
+<!--pages/zaocan.wxml-->
+<van-divider contentPosition="center">推荐</van-divider>
+<van-card
+  desc="早餐"
+  title="桂花酒酿小汤圆"
+  thumb="https://tse1-mm.cn.bing.net/th/id/R-C.620f602c7ae6cb1629309eb419333c38?rik=ycit%2bP3HWsGu3g&riu=http%3a%2f%2fcp1.douguo.net%2fupload%2fcaiku%2f7%2f3%2fb%2fyuan_7397b65ada8549296d02dfef0237ac8b.jpg&ehk=RhjI3G9avYuQL%2fr41OLbhgU2t%2fpwbkYhzKCmBdbb9ME%3d&risl=&pid=ImgRaw&r=0"
+  thumb-mode='scaleToFill'
+  >
+<view slot="footer">
+    <van-button id="guihua" size="mini" bindtap="gotoPage">详情</van-button>
+  </view>
+</van-card>

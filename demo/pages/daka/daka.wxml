@@ -1,0 +1,38 @@
+<view class='sign-new'>
+  <view class='in'>
+    <view class='new-head'>
+      <view class='sig-tl'>
+        <view class='tln'>已连续签到<label class='n'>{{newSignNum}}</label>天</view>
+        <view class='tlf'>金币：<label class='f'>{{newSignIntegral}}</label></view>
+      </view>
+
+      <!-- 未签到 -->
+      <view wx:if='{{!newSignBtnState}}' class='sig-qiu sig-qiu-no' bindtap='bindSignFn'  >
+        <label class='ti'>签到</label>
+      </view>
+      <!-- 已签到 -->
+      <view wx:else class='sig-qiu sig-qiu-yes'>
+        <label class='ti'>已签到</label>
+      </view>
+    </view>
+
+    <view class='new-week' >
+      <view class='we-mod'>
+        <view class='mo-fen'>
+          <label class='f f3' wx:if='{{continuityDays3}}'>+3积分</label>
+          <label class='f f7' wx:if='{{continuityDays7}}'>+7积分</label>
+        </view>
+        <view class='mo-line'>
+          <block wx:for="{{newSignedArr}}"  wx:for-item="v" wx:key="k">
+            <label class="q {{v.isSigned?'hover':''}}"></label>
+          </block>
+        </view>
+        <view class='mo-ri'>
+           <block wx:for="{{newSignedArr}}"  wx:for-item="v" wx:key="k">
+            <label class="t">{{v.day}}</label>
+          </block>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
